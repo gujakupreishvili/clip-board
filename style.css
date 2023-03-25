@@ -1,0 +1,385 @@
+body{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #F2F2F2;
+}
+.header-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-img-mobile{
+  position: relative;
+  width: 100%;
+  height: 375px;
+}
+.main-logo{
+  position: absolute;
+  top: 134px;
+  width: 105px;
+  height: 105px;
+}
+.history{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Bai Jamjuree;
+  color: #4C545C;
+  width: 311px;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.clipboard{
+  font-size: 16px;
+  line-height: 26px;
+  width: 311px;
+  text-align:  center;
+  font-weight: 400;
+  font-family:Bai Jamjuree ;
+  color: #9EABB2;
+  margin-bottom: 48px;
+}
+.header-button-div{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 160px;
+}
+.ios-button{
+  width: 311px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  background-color: #26BBA4;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Bai Jamjuree;
+}
+.ios-button:hover{
+  box-shadow: 5px 5px 5px 5px #26BBA4;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.mac-button{
+  width: 311px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  background-color:#6174FF;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Bai Jamjuree;
+}
+.mac-button:hover{
+  transition: 0.2s;
+  box-shadow: 5px 5px 5px 5px #6174FF;
+  cursor: pointer;
+}
+.keep-track{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Bai Jamjuree;
+  color: #4C545C;
+  width: 311px;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: 16px;
+}
+.clipboard-instantly{
+  width: 311px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Bai Jamjuree;
+  color: #9EABB2;
+  margin-bottom: 65px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.computer-text-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.computer-img{
+  width: 312px;
+  height: 238px;
+  margin-bottom: 56px;
+}
+.texts-h3{
+  font-size: 24px;
+  font-weight: 600;
+  font-family:Bai Jamjuree ;
+  color: #4C545C;
+  margin-bottom: 10px;
+}
+.texts-p{
+  font-size: 16px;
+  width: 311px;
+  text-align: center;
+  font-weight: 400;
+  font-family: Bai Jamjuree;
+  line-height: 26px;
+  color: #9EABB2;
+  margin-bottom: 48px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+}
+.section-first-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.access{
+  font-size: 28px;
+  font-weight: 600;
+  font-family:Bai Jamjuree ;
+  color: #4C545C;
+  margin-bottom: 16px;
+}
+.go-p{
+  width: 311px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9EABB2;
+  font-family:Bai Jamjuree ;
+  margin-bottom: 65px;
+}
+.device-img{
+  width: 271px;
+  height: 180px;
+  margin-bottom: 130px;
+}
+.supercharge{
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Bai Jamjuree;
+  color: #4C545C;
+  margin-bottom: 11px;
+}
+.tools{
+  font-size: 16px;
+  line-height: 26px;
+  width: 311px;
+  text-align: center;
+  font-weight: 400;
+  font-family:Bai Jamjuree;
+  color: #9EABB2;
+  margin-bottom: 90px;
+}
+.offers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offers-on{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offers-h2{
+  font-size: 24px;
+  font-weight: 600;
+  color: #4C545C;
+  font-family:Bai Jamjuree ;
+  margin-bottom: 18px;
+}
+.offers-p{
+  font-family: Bai Jamjuree;
+  width: 311px;
+  text-align: center;
+  color: #9EABB2;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 56px;
+}
+.logos-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 57px;
+  margin-bottom: 170px;
+  margin-top: 100px;
+}
+.ios-mac-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1-mac-div{
+  font-size: 28px;
+  width: 300px;
+  text-align: center;
+  font-weight: 600;
+  font-family:Bai Jamjuree ;
+  line-height: 35px;
+  margin-bottom: 15px;
+  color: #4C545C;
+}
+.p-mac-div{
+  width: 311px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Bai Jamjuree;
+  color: #9EABB2;
+  margin-bottom: 46px;
+}
+.footer-div{
+  margin-top: 100px;
+  background-color: #9EABB2;
+  height: 500px;
+  width: 100%;
+  background: rgba(76, 175, 80, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-logo{
+  width: 105px;
+  height: 105px;
+  margin-top: 55px;
+  margin-bottom: 44px;
+}
+.text-footer{
+  font-size: 18px;
+  font-weight: 400;
+  font-family:Bai Jamjuree ;
+  color: #4C545C;
+  text-align: center;
+}
+.text-footer:hover{
+  color: #26BBA4;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.add-text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.add-text2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.facebook{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-top: 51px;
+}
+@media (min-width:1024px){
+  .main-logo{
+    width: 125px;
+    height: 125px;
+  }
+  .history{
+    font-size: 46px;
+    width: 730px;
+  }
+  .clipboard{
+    font-size: 20px;
+    width: 730px;
+  }
+  .header-button-div{
+    flex-direction: row;
+  }
+  .keep-track{
+    font-size: 36px;
+    width: 730px;
+  }
+  .clipboard-instantly{
+    font-size: 18px;
+    width: 730px;
+  }
+  .computer-text-div{
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 150px;
+  }
+  .computer-img{
+    width: 752px;
+    height: 572px;
+  }
+  .computer-text{
+    display: flex;
+    flex-direction: column;
+  }
+  .texts-p{
+    text-align: start;
+  }
+  .access{
+    font-size: 36px;
+    font-weight: 730px;
+  }
+  .go-p{
+    font-size: 18px;
+    width: 730px;
+  }
+  .device-img{
+    width: 707px;
+    height: 472px;
+  }
+  .supercharge{
+    font-size: 36px;
+    width: 730px;
+    text-align: center;
+  }
+  .tools{
+    width: 730px;
+    font-size: 20px;
+  }
+  .offers{
+    flex-direction: row;
+    gap: 30px;
+  }
+  .logos-div{
+    flex-direction: row;
+    gap: 70px;
+  }
+  .h1-mac-div{
+    width: 730px;
+    font-size: 36px;
+  }
+  .p-mac-div{
+    width: 730px;
+    font-size: 18px;
+  }
+  .footer-div{
+    flex-direction: row;
+    height: 150px;
+    justify-content: space-between;
+  }
+  .facebook{
+    margin-top: 0px;
+    margin-right: 165px;
+  }
+  .footer-logo{
+    margin-left: 160px;
+  }
+}
