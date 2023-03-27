@@ -375,11 +375,25 @@ section{
     height: 150px;
     justify-content: space-between;
   }
+  .text-footer{
+    margin: 0px;
+    text-align: start;
+  }
   .facebook{
     margin-top: 0px;
     margin-right: 165px;
   }
   .footer-logo{
     margin-left: 160px;
+    width: 55px;
+    height: 55px;
+  }
+  .add-text{
+    gap: 11px;
+    margin-top: 54px;
+  }
+  .add-text2{
+    margin-top: 54px;
+    gap: 11px;
   }
 }
